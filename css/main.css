@@ -36,6 +36,8 @@ h1 {
     margin-left: 60px;
     float: left;
     padding-top: 10px;
+
+    
 }
 #box2{
     float: left;
@@ -50,18 +52,26 @@ h1 {
 
 #box4{
     float:left;
-    margin-left: 10px;
-    margin-bottom: 20px;
-    background-color: rgb(63, 12, 12);
-    margin-top: 10px;
+    float:top;
+    margin-left: 20px;
+    position: relative;
+    top: -20px;
 }
 
 #box5{
     float: right;
-    margin-left: 20px;
-    background-color: #3e3b3e;
+    margin-left: 10px;
+    margin-right:auto;
 }
 
+#box6{
+    text-align: center;
+    float:left;
+    background-color: #e198d8;
+    border: dotted;
+    margin: top -70px;;
+
+}
 body {
         background-color: #d1c3ed; 
     }
@@ -69,6 +79,19 @@ header,footer {
     text-align: center;
     padding: 10px;
 
+}
+
+.fa-instagram{
+    color:purple
+    
+}
+
+.fa-youtube{
+    color: red
+    
+}
+.fa-tiktok{
+    color:black
 }
 
 
