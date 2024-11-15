@@ -68,12 +68,13 @@ section {
 }
 
 #box5 img {
-    max-width: 800px; 
+    max-width: 500px;
+    float: right;
 }
 
 #box4 {
     float: left;
-    margin-left: 20px;
+    margin-left: 30px;
     position: relative;
     top: -20px; 
 }
@@ -120,7 +121,6 @@ section {
     border-radius: 10px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
 
 
 footer {
