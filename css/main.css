@@ -43,6 +43,7 @@ section {
     padding: 20px;
 }
 
+
 #box1 {
     width: 300px;
     height: auto;
@@ -65,11 +66,13 @@ section {
     max-width: 450px;
     height: auto;
     border-radius: 10px;
+    align-items: right;
 }
 
 #box5 img {
-    max-width: 500px;
-    float: right;
+    max-width: 400px;
+    position: relative;
+    right: 20px
 }
 
 #box4 {
@@ -79,17 +82,16 @@ section {
     top: -20px; 
 }
 
-#box4 {
-    float: left;
-    margin-left: 20px;
-    position: relative;
-    top: -40px; 
+#box2 {
+    display: block;
+    margin: 10px auto;
 }
 #box6 {
     text-align: center;
     background-color: #e198d8;
     border: dotted;
     padding: 20px;
+    float: bottom;
 }
 
 .comment-form {

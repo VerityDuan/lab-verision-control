@@ -6,8 +6,8 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="script.js"></script>
 </head>
-<script src="script.js"></script>
 <body>
     <h1 style="text-align:center;">Welcome to Verity Duan's website !!!<span id="emoji">🥳🐰👾</span></h1>
 
@@ -15,9 +15,6 @@
         <nav>
             <a href="about.html">About me</a>
         </nav>
-
-<button id="changeTextBtn">Click Me</button>
-<p id="greeting"></p>
 
         <div>
             <a href="https://www.instagram.com/verityduanyan/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
@@ -59,7 +56,9 @@
         </div>
 
         <div id="box6">
+            <blockquote>
             <p>Leave a comment🎤</p>
+        </blockquote>
         </div>
     </section>
 
@@ -71,6 +70,7 @@
         <label for="comment">Comment:</label>
         <textarea id="comment" rows="10" placeholder="Write your comment"></textarea>
         <button type="submit">Post comment</button>
+        <p id="hiddenMessage" style="display:none"> Thank you for your comment, Here's a flower🌸 Have a GREAT day!!!</p>
     </form>
 
     <footer>
