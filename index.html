@@ -38,14 +38,17 @@
             </ul>
         </h3>
        
-        <div id="box2">
+        <div class="wrapper">
+        <div class="image">
             <img src="img/stray_kidsphoto.jpg" height="450" width="450" alt="Stray Kids">
-            <p>This is an illustration I did when I was 16, during my KPOP phase.</p>
+            <div class="content"></div>This is an illustration I did when I was 16, during my KPOP phase.
+        </div>
+
         </div>
 
         <div id="box3">
             <img src="img/hahah.jpg" height="600" width="420" alt="Stray Kids">
-        </div>
+
 
         <div id="box4"> 
             <img src="img/newfile.jpg" height="450" width="450" alt="Tower Logos">
@@ -69,13 +72,12 @@
         <input type="email" id="email" placeholder="Email">
         <label for="comment">Comment:</label>
         <textarea id="comment" rows="10" placeholder="Write your comment"></textarea>
-        <button type="submit">Post comment</button>
+        <button onclick="revealMessage()">Post comment</button>
         <p id="hiddenMessage" style="display:none"> Thank you for your comment, Here's a flower🌸 Have a GREAT day!!!</p>
     </form>
 
-    <footer>
-        <small>(c) 2024, Verity Duan</small>
-    </footer>
+       <footer id="adddate">(c) 2024, Verity Duan</footer>
+
 </body>
 </html>
 

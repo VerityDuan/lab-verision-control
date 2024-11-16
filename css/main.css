@@ -8,8 +8,15 @@
 body {
     background-color: #d1c3ed;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 25rem;
+    margin:0;
 }
 
+img {
+    width: 100%;
+    display: block;
+    margin: auto
+}
 h1 {
     background-color: #de52ab;
     background-image: linear-gradient(to top, #602fc2 0%, rgb(241, 102, 148) 100%);
@@ -41,6 +48,16 @@ section {
     justify-content: space-between; 
     align-items: flex-start;
     padding: 20px;
+}
+#box3 {
+    position: relative;
+    width: 400px 
+
+}
+
+.image{
+    position: relative;
+    width: 400px
 }
 
 
