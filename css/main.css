@@ -24,6 +24,11 @@ h1 {
     padding: 20px;
 }
 
+#lol{
+    border: 3px solid gold;
+    font-size: 20px;
+}
+
 .navbar {
     background: #de52ab;
     height: 80px;
@@ -140,6 +145,8 @@ section {
     border-radius: 10px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+
 
 
 footer {
