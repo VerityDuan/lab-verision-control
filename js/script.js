@@ -11,6 +11,7 @@ if (footerElement){
     console.error("Element with ID 'adddate' not found.");
 }
 
+/* connects css from html to java*/
 const currentTime= new Date();
 const hours=currentTime.getHours();
 const greetingElement=document.getElementById("greeting");
