@@ -1,15 +1,10 @@
 document.addEventListener("DOMContentLoaded",()=> {
 
+const footerElement= document.getElementById ("footerYear");
 const today= new Date ();
 const year = today.getFullYear ();
 console.log(today)
 
-const footerElement= document.getElementById ("adddate");
-if (footerElement){
-    footerElement.innerHTML= `All Rights Reserved, Verity Duan ${year}`;
-} else {
-    console.error("Element with ID 'adddate' not found.");
-}
 
 /* connects css from html to java*/
 const currentTime= new Date();
@@ -37,6 +32,9 @@ function revealMessage(){
     }
 }
 
+
+
+/* for loop section for odd and even numbers*/
 const numbersList= document.getElementById("numbers");
 for (let i=1; i<=12; i++) {
     const listItem=document.createElement("li");
@@ -50,6 +48,8 @@ for (let i=1; i<=12; i++) {
     numbersList.appendChild(listItem);
 }
 
+
+/* alert button*/
 const button = document.getElementById('btn-alert');
 button.addEventListener('click', function() {
 alert('Hello world!');
