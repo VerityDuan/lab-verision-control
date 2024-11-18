@@ -14,7 +14,7 @@ if (footerElement){
 /* connects css from html to java*/
 const currentTime= new Date();
 const hours=currentTime.getHours();
-const greetingElement=document.getElementById("greeting");
+const greetingElement=document.getElementById("greetings");
 if (hours< 12) {
     greetingElement.innerText= "GoodMorning";
     greetingElement.classList.add("morning");
