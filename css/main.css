@@ -24,24 +24,9 @@ h1 {
     padding: 20px;
 }
 
-#lol{
-    border: 3px solid gold;
-    font-size: 20px;
-}
+
 
 .navbar {
-    background: #de52ab;
-    height: 80px;
-    display: flex;
-    font-size: 1.2rem;
-    position: sticky;
-    top: 0;
-    z-index: 999;
-    justify-content: center;
-    align-items: center;
-}
-
-.navbar a {
     margin: 0 10px;
     color: white;
     text-decoration: none;
@@ -54,6 +39,7 @@ section {
     align-items: flex-start;
     padding: 20px;
 }
+/*boxesarenotworkingbecausethereisoverlaps*/
 #box3 {
     position: relative;
     width: 400px 
@@ -78,19 +64,6 @@ section {
     position: relative; 
 }
 
-#box2, #box3, #box4, #box5 {
-    margin: 20px;
-    text-align: center;
-}
-
-#box2 img, #box3 img, #box4 img, #box5 img {
-    width: 100%;
-    max-width: 450px;
-    height: auto;
-    border-radius: 10px;
-    align-items: right;
-}
-
 #box5 img {
     max-width: 400px;
     position: relative;
@@ -101,7 +74,7 @@ section {
     float: left;
     margin-left: 30px;
     position: relative;
-    top: -20px; 
+    top: 20px; 
 }
 
 #box2 {
@@ -145,8 +118,6 @@ section {
     border-radius: 10px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
-
 
 
 footer {
